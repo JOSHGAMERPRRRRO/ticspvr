@@ -1,0 +1,40 @@
+h1{
+    color:#FF6501;
+    font-family:agency fb;  
+    font-size:43
+}
+body{
+    background-color:#9E0000;
+    font-family:agency fb;  
+    font-size:43
+}
+P{
+    color:orange;
+    font-family:agency fb;  
+    font-size:30
+}	
+
+h2{
+    color:#08B800;
+    font-family:agency fb;  
+    font-size:40
+}
+h3{
+    color:#08B800; 
+    font-family:agency fb;  
+    font-size:37
+}
+h4{
+    color:#08B800; 
+    font-family:agency fb;  
+    font-size:34
+}
+li{
+    color:#08B800; 
+    font-family:agency fb;  
+    font-size:25
+}
+img.gaus{
+  width:350px;
+  height:200px;
+}

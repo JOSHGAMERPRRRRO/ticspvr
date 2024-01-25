@@ -38,3 +38,15 @@ img.gaus{
   width:350px;
   height:200px;
 }
+img.rider{
+  width:350px;
+  height:200px;
+  border-radius: 50%;
+}
+table{
+    font-family:arial black;  
+    font-size:45
+     width: 100%;
+            background-color: #f2f2f2;
+
+}

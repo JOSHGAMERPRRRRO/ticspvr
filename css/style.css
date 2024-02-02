@@ -4,12 +4,39 @@ h1{
     font-size:43
 }
 body{
-    background-color:#9E0000;
+    background-color:withe;
     font-family:agency fb;  
     font-size:43
 }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+    margin-right: 20px; /* Espacio entre los ítems del menú */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 P{
-    color:orange;
+    color:#B60F0F;
     font-family:agency fb;  
     font-size:30
 }	

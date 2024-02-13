@@ -65,6 +65,10 @@ img.gaus{
   width:350px;
   height:200px;
 }
+img.escan{
+  width:200px;
+  height:350px;
+}
 img.rider{
   width:350px;
   height:200px;
@@ -149,4 +153,42 @@ table{
 .form-style-8 input[type="submit"]:hover {
 	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
 	background-color:#34CACA;
+}
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.container{
+  height: 500px;
+  width: 100%;
+  background-color:#556BBD;
+  display: flex;
+  justify-content: space-between;
+}
+div.div-1{
+  height: 175px;
+  background-color: red;
+  flex: 1;
+}
+div.div-2{
+  height: 175px;
+  background-color: green;
+  flex: 1;
+  margin-left:25px;
+}
+div.div-3{
+  height: 175px;
+  background-color: blue;
+  flex: 1;
+  margin-left:25px;
+}
+
+img.img-p{
+  width:350px;
+height:350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }

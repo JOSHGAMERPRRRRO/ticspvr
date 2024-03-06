@@ -28,13 +28,6 @@ div.divisioncita2{
     padding: 50px 30px 50px 80px;
 	margin: 25px 50px 75px 100px;
 }
-// HTML
-<div class="image-container">
-  <img src="https://source.unsplash.com/tMHAmxLyzvA" alt="Boston city skyline" >
-  <div class="image-text">Welcome to Kinsta</div>
-</div>
-
-// CSS
 .image-container {
   position: relative;
 }

@@ -1,0 +1,65 @@
+
+aside {
+	width: 40%;
+	padding-left: 0.5rem;
+	float: right;
+	box-shadow: 5px 0 5px -5px #29627e;
+	font-style: italic;
+	color: #29627e;
+}
+
+div.divisioncita{
+	border: 16px groove rgb(185, 19, 19);
+    padding-top: 50px;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-left: 80px;
+	margin-top: 100px; 
+	margin-bottom: 100px;
+	margin-right: 150;
+	margin-left: 80px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #29627e;
+	text-align: justify;
+}
+
+div.divisioncita2{
+	border: 12px groove blue;
+    padding: 50px 30px 50px 80px;
+	margin: 25px 50px 75px 100px;
+}
+.image-container {
+  position: relative;
+}
+
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-container {
+  position: relative;
+
+}
+
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scaleX(-1) scaleY(-1);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:agency fb;  
+  font-size:43
+  
+  }

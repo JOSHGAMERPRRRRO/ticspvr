@@ -1,0 +1,75 @@
+<html> 
+    <link rel="stylesheet" type="text/css"href="../css/TEMA5.css">      
+       <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CSS Funcionalidades</title>
+            <style>
+                /* Box vs Drop Shadow */
+                .box {
+                    width: 200px;
+                    height: 200px;
+                    background-color: #f0f0f0;
+                    border: 1px solid #000000;
+                    margin: 20px;
+                    /* Box Shadow */
+                    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+                }
+                
+                /* Hover Effect */
+                .box:hover {
+                    background-color: #00ffaa;
+                }
+                
+                /* Focus Selector */
+                input:focus {
+                    border-color: rgb(250, 0, 0);
+                    outline: none;
+                }
+                
+                /* Cursor Pointer */
+                .clickable {
+                    cursor: pointer;
+                }
+                
+                /* Slider Animation */
+                .slider {
+                    width: 200px;
+                    height: 100px;
+                    overflow: hidden;
+                    position: relative;
+                }
+                
+                .slide {
+                    width: 200px;
+                    height: 100px;
+                    position: absolute;
+                    animation: slide 5s infinite alternate;
+                }
+                
+                @keyframes slide {
+                    0% {
+                        left: 0;
+                    }
+                    100% {
+                        left: -200px;
+                    }
+                }
+            </style>
+            </head>
+            <body>
+            
+            <div class="box"></div>
+            
+            <input type="text" placeholder="Focus Selector Example">
+            
+            <div class="box clickable">Cursor Pointer Example</div>
+            
+            <div class="slider">
+                <div class="slide" style="background-color: #f00;"></div>
+                <div class="slide" style="background-color: #0f0;"></div>
+                <div class="slide" style="background-color: rgb(98, 0, 255);"></div>
+            </div>
+            
+            </body>
+</html>

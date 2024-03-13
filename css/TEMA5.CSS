@@ -1,0 +1,50 @@
+/* Estilos para la caja */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 20px;
+    /* Sombra */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto al pasar el ratón */
+.box:hover {
+    background-color: rgb(0, 255, 221);
+}
+
+/* Estilos para el selector enfocado */
+input:focus {
+    border-color: rgb(0, 255, 34);
+    outline: none;
+}
+
+/* Cursor puntero */
+.clickable {
+    cursor: pointer;
+}
+
+/* Estilos para el slider */
+.slider {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation: slide 5s infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200px;
+    }
+}

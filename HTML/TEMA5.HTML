@@ -9,21 +9,29 @@
                 .box {
                     width: 200px;
                     height: 200px;
-                    background-color: #f0f0f0;
+                    background-color: rgb(0, 0, 0);
                     border: 1px solid #000000;
                     margin: 20px;
                     /* Box Shadow */
                     box-shadow: 5px 5px 10px rgb(0, 0, 0);
                 }
+                .drop-shadow {
+                    width: 200px;
+                    height: 200px;
+                    background-color: rgb(229, 255, 0);
+                    margin: 20px;
+                    filter:drop-shadow(5px 5px 10px rgb(255, 0, 0))
+                }
+                
                 
                 /* Hover Effect */
                 .box:hover {
-                    background-color: #00ffaa;
+                    background-color: #03b603;
                 }
                 
                 /* Focus Selector */
                 input:focus {
-                    border-color: rgb(250, 0, 0);
+                    border-color: rgb(15, 128, 0);
                     outline: none;
                 }
                 
@@ -37,7 +45,7 @@
                     width: 200px;
                     height: 100px;
                     overflow: hidden;
-                    position: relative;
+                    position: absolute;
                 }
                 
                 .slide {
@@ -49,7 +57,7 @@
                 
                 @keyframes slide {
                     0% {
-                        left: 0;
+                        left: 200;
                     }
                     100% {
                         left: -200px;
@@ -59,17 +67,20 @@
             </head>
             <body>
             
-            <div class="box"></div>
+                <div class="box"></div>
+                <div class="drop-shadow"></div>
+                <div class="box:hover"></div>
+                <input type="text" placeholder="escribe aqui">
+                
+                <div class="box clickable">aaaaaaaaaaaaa chismosos</div>
+                
+                <div class="slider">
+                    <div class="slide" style="background-color: rgb(89, 0, 255);"></div>
+                    <div class="slide" style="background-color: #0f0;"></div>
+                    <div class="slide" style="background-color: rgb(0, 255, 21);"></div>
+                </div>
+ 
             
-            <input type="text" placeholder="Focus Selector Example">
-            
-            <div class="box clickable">Cursor Pointer Example</div>
-            
-            <div class="slider">
-                <div class="slide" style="background-color: #f00;"></div>
-                <div class="slide" style="background-color: #0f0;"></div>
-                <div class="slide" style="background-color: rgb(98, 0, 255);"></div>
-            </div>
             
             </body>
 </html>
